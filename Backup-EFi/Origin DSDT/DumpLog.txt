@@ -1,0 +1,132 @@
+12:651  0:270  Found BIOS RSDP at F05B0
+12:651  0:000  Printing ACPI tables from RSDP F05B0 ...
+12:651  0:000   F05B0: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+12:651  0:000    (Rsdt: BED9D028)
+12:651  0:000    BED9D028: 'RSDT', 'A M I', Rev: 1, Len: 112
+12:651  0:000    Tables in Rsdt: 19
+12:651  0:000    0. BED9D168: 'FACP', 'A M I', Rev: 2, Len: 132
+12:651  0:000        (Dsdt: BED9D1F0, Facs: BEE18C00)
+12:651  0:000        BED9D1F0: 'DSDT', 'A M I', Rev: 2, Len: 164485
+12:653  0:001        BEE18C00: 'FACS', Ver: 0, Len: 64
+12:653  0:000    1. BEDC5590: 'APIC', 'A M I', Rev: 3, Len: 188
+12:653  0:000    2. BEDC5650: 'FPDT', 'A M I', Rev: 1, Len: 68
+12:653  0:000    3. BEDC5698: 'MCFG', 'A M I', Rev: 1, Len: 60
+12:653  0:000    4. BEDC56D8: 'FIDT', 'A M I', Rev: 1, Len: 156
+12:653  0:000    5. BEDC5778: 'SSDT', 'SaSsdt', Rev: 2, Len: 12628
+12:653  0:000    6. BEDC88D0: 'SSDT', 'PegSsdt', Rev: 2, Len: 9540
+12:653  0:000    7. BEDCAE18: 'HPET', 'SKL', Rev: 1, Len: 56
+12:653  0:000    8. BEDCAE50: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3643
+12:653  0:000    9. BEDCBC90: 'SSDT', 'xh_rvp10', Rev: 2, Len: 10967
+12:653  0:000    10. BEDCE768: 'UEFI', 'EDK2', Rev: 1, Len: 66
+12:653  0:000    11. BEDCE7B0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+12:653  0:000    12. BEDCF690: 'LPIT', 'SKL', Rev: 1, Len: 148
+12:653  0:000    13. BEDCF728: 'WSMT', 'SKL', Rev: 1, Len: 40
+12:653  0:000    14. BEDCF750: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+12:653  0:000    15. BEDCF9F0: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+12:653  0:000    16. BEDD29F8: 'DBGP', '', Rev: 1, Len: 52
+12:653  0:000    17. BEDD2A30: 'DBG2', '', Rev: 0, Len: 84
+12:653  0:000    18. BEDD2A88: 'BGRT', 'A M I', Rev: 1, Len: 56
+12:653  0:000  Found UEFI Acpi 2.0 RSDP at BED9D000
+12:653  0:000  Saving ACPI tables from RSDP BED9D000 to EFI\CLOVER\ACPI\origin ...
+12:653  0:000   BED9D000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+12:653  0:000    (Xsdt: BED9D0A0, Rsdt: BED9D028)
+12:653  0:000    BED9D0A0: 'XSDT', 'A M I', Rev: 1, Len: 188
+12:653  0:000    BED9D028: 'RSDT', 'A M I', Rev: 1, Len: 112
+12:653  0:000    Tables in Xsdt: 19
+12:653  0:000    0. BEDC5478: 'FACP', 'A M I', Rev: 6, Len: 276
+12:653  0:000        (Dsdt: BED9D1F0, Facs: BEE18C40, XDsdt: BED9D1F0, XFacs: 0)
+12:653  0:000        BED9D1F0: 'DSDT', 'A M I', Rev: 2, Len: 164485
+12:655  0:001        BEE18C40: 'FACS', Ver: 2, Len: 64
+12:655  0:000    1. BEDC5590: 'APIC', 'A M I', Rev: 3, Len: 188
+12:655  0:000    2. BEDC5650: 'FPDT', 'A M I', Rev: 1, Len: 68
+12:655  0:000    3. BEDC5698: 'MCFG', 'A M I', Rev: 1, Len: 60
+12:655  0:000    4. BEDC56D8: 'FIDT', 'A M I', Rev: 1, Len: 156
+12:655  0:000    5. BEDC5778: 'SSDT', 'SaSsdt', Rev: 2, Len: 12628
+12:655  0:000    6. BEDC88D0: 'SSDT', 'PegSsdt', Rev: 2, Len: 9540
+12:655  0:000    7. BEDCAE18: 'HPET', 'SKL', Rev: 1, Len: 56
+12:655  0:000    8. BEDCAE50: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3643
+12:655  0:000    9. BEDCBC90: 'SSDT', 'xh_rvp10', Rev: 2, Len: 10967
+12:655  0:000    10. BEDCE768: 'UEFI', 'EDK2', Rev: 1, Len: 66
+12:655  0:000    11. BEDCE7B0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+12:655  0:000    12. BEDCF690: 'LPIT', 'SKL', Rev: 1, Len: 148
+12:655  0:000    13. BEDCF728: 'WSMT', 'SKL', Rev: 1, Len: 40
+12:655  0:000    14. BEDCF750: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+12:655  0:000    15. BEDCF9F0: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+12:655  0:000    16. BEDD29F8: 'DBGP', '', Rev: 1, Len: 52
+12:655  0:000    17. BEDD2A30: 'DBG2', '', Rev: 0, Len: 84
+12:655  0:000    18. BEDD2A88: 'BGRT', 'A M I', Rev: 1, Len: 56
+12:655  0:000    Tables in Rsdt: 19
+12:655  0:000    0. BED9D168: 'FACP', 'A M I', Rev: 2, Len: 132
+12:655  0:000        (Dsdt: BED9D1F0, Facs: BEE18C00)
+12:655  0:000        BED9D1F0: 'DSDT', 'A M I', Rev: 2, Len: 164485
+12:657  0:001        BEE18C00: 'FACS', Ver: 0, Len: 64
+12:657  0:000    1. BEDC5590: 'APIC', 'A M I', Rev: 3, Len: 188
+12:657  0:000    2. BEDC5650: 'FPDT', 'A M I', Rev: 1, Len: 68
+12:657  0:000    3. BEDC5698: 'MCFG', 'A M I', Rev: 1, Len: 60
+12:657  0:000    4. BEDC56D8: 'FIDT', 'A M I', Rev: 1, Len: 156
+12:657  0:000    5. BEDC5778: 'SSDT', 'SaSsdt', Rev: 2, Len: 12628
+12:657  0:000    6. BEDC88D0: 'SSDT', 'PegSsdt', Rev: 2, Len: 9540
+12:657  0:000    7. BEDCAE18: 'HPET', 'SKL', Rev: 1, Len: 56
+12:657  0:000    8. BEDCAE50: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3643
+12:657  0:000    9. BEDCBC90: 'SSDT', 'xh_rvp10', Rev: 2, Len: 10967
+12:657  0:000    10. BEDCE768: 'UEFI', 'EDK2', Rev: 1, Len: 66
+12:657  0:000    11. BEDCE7B0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+12:657  0:000    12. BEDCF690: 'LPIT', 'SKL', Rev: 1, Len: 148
+12:657  0:000    13. BEDCF728: 'WSMT', 'SKL', Rev: 1, Len: 40
+12:657  0:000    14. BEDCF750: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+12:657  0:000    15. BEDCF9F0: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+12:657  0:000    16. BEDD29F8: 'DBGP', '', Rev: 1, Len: 52
+12:657  0:000    17. BEDD2A30: 'DBG2', '', Rev: 0, Len: 84
+12:657  0:000    18. BEDD2A88: 'BGRT', 'A M I', Rev: 1, Len: 56
+12:657  0:000  Found UEFI Acpi 1.0 RSDP at BED9D000
+12:657  0:000  Printing ACPI tables from RSDP BED9D000 ...
+12:657  0:000   BED9D000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+12:657  0:000    (Xsdt: BED9D0A0, Rsdt: BED9D028)
+12:657  0:000    BED9D0A0: 'XSDT', 'A M I', Rev: 1, Len: 188
+12:657  0:000    BED9D028: 'RSDT', 'A M I', Rev: 1, Len: 112
+12:657  0:000    Tables in Xsdt: 19
+12:657  0:000    0. BEDC5478: 'FACP', 'A M I', Rev: 6, Len: 276
+12:657  0:000        (Dsdt: BED9D1F0, Facs: BEE18C40, XDsdt: BED9D1F0, XFacs: 0)
+12:657  0:000        BED9D1F0: 'DSDT', 'A M I', Rev: 2, Len: 164485
+12:659  0:001        BEE18C40: 'FACS', Ver: 2, Len: 64
+12:659  0:000    1. BEDC5590: 'APIC', 'A M I', Rev: 3, Len: 188
+12:659  0:000    2. BEDC5650: 'FPDT', 'A M I', Rev: 1, Len: 68
+12:659  0:000    3. BEDC5698: 'MCFG', 'A M I', Rev: 1, Len: 60
+12:659  0:000    4. BEDC56D8: 'FIDT', 'A M I', Rev: 1, Len: 156
+12:659  0:000    5. BEDC5778: 'SSDT', 'SaSsdt', Rev: 2, Len: 12628
+12:659  0:000    6. BEDC88D0: 'SSDT', 'PegSsdt', Rev: 2, Len: 9540
+12:659  0:000    7. BEDCAE18: 'HPET', 'SKL', Rev: 1, Len: 56
+12:659  0:000    8. BEDCAE50: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3643
+12:659  0:000    9. BEDCBC90: 'SSDT', 'xh_rvp10', Rev: 2, Len: 10967
+12:659  0:000    10. BEDCE768: 'UEFI', 'EDK2', Rev: 1, Len: 66
+12:659  0:000    11. BEDCE7B0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+12:659  0:000    12. BEDCF690: 'LPIT', 'SKL', Rev: 1, Len: 148
+12:659  0:000    13. BEDCF728: 'WSMT', 'SKL', Rev: 1, Len: 40
+12:659  0:000    14. BEDCF750: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+12:659  0:000    15. BEDCF9F0: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+12:659  0:000    16. BEDD29F8: 'DBGP', '', Rev: 1, Len: 52
+12:659  0:000    17. BEDD2A30: 'DBG2', '', Rev: 0, Len: 84
+12:659  0:000    18. BEDD2A88: 'BGRT', 'A M I', Rev: 1, Len: 56
+12:659  0:000    Tables in Rsdt: 19
+12:659  0:000    0. BED9D168: 'FACP', 'A M I', Rev: 2, Len: 132
+12:659  0:000        (Dsdt: BED9D1F0, Facs: BEE18C00)
+12:659  0:000        BED9D1F0: 'DSDT', 'A M I', Rev: 2, Len: 164485
+12:661  0:001        BEE18C00: 'FACS', Ver: 0, Len: 64
+12:661  0:000    1. BEDC5590: 'APIC', 'A M I', Rev: 3, Len: 188
+12:661  0:000    2. BEDC5650: 'FPDT', 'A M I', Rev: 1, Len: 68
+12:661  0:000    3. BEDC5698: 'MCFG', 'A M I', Rev: 1, Len: 60
+12:661  0:000    4. BEDC56D8: 'FIDT', 'A M I', Rev: 1, Len: 156
+12:661  0:000    5. BEDC5778: 'SSDT', 'SaSsdt', Rev: 2, Len: 12628
+12:661  0:000    6. BEDC88D0: 'SSDT', 'PegSsdt', Rev: 2, Len: 9540
+12:661  0:000    7. BEDCAE18: 'HPET', 'SKL', Rev: 1, Len: 56
+12:661  0:000    8. BEDCAE50: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3643
+12:661  0:000    9. BEDCBC90: 'SSDT', 'xh_rvp10', Rev: 2, Len: 10967
+12:661  0:000    10. BEDCE768: 'UEFI', 'EDK2', Rev: 1, Len: 66
+12:661  0:000    11. BEDCE7B0: 'SSDT', 'CpuSsdt', Rev: 2, Len: 3806
+12:661  0:000    12. BEDCF690: 'LPIT', 'SKL', Rev: 1, Len: 148
+12:661  0:000    13. BEDCF728: 'WSMT', 'SKL', Rev: 1, Len: 40
+12:661  0:000    14. BEDCF750: 'SSDT', 'sensrhub', Rev: 2, Len: 671
+12:661  0:000    15. BEDCF9F0: 'SSDT', 'PtidDevc', Rev: 2, Len: 12290
+12:661  0:000    16. BEDD29F8: 'DBGP', '', Rev: 1, Len: 52
+12:661  0:000    17. BEDD2A30: 'DBG2', '', Rev: 0, Len: 84
+12:661  0:000    18. BEDD2A88: 'BGRT', 'A M I', Rev: 1, Len: 56
